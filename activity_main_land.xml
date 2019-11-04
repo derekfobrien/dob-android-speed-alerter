@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:keepScreenOn="true"
+    android:orientation="horizontal"
+    tools:context="com.example.derek.myspeedalerter.MainActivity">
+
+    <fragment
+        android:id="@+id/setspeed_fragment"
+        android:name="com.example.derek.myspeedalerter.SetSpeedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        tools:layout="@layout/setspeed_fragment" />
+
+    <fragment
+        android:id="@+id/display_fragment"
+        android:name="com.example.derek.myspeedalerter.DisplayFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        tools:layout="@layout/display_fragment" />
+</LinearLayout>

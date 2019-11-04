@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A2444">
+
+    <TextView
+        android:id="@+id/textViewShowSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/your_speed_is"
+        android:textAlignment="center"
+        android:textColor="#4F6769"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textKmh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/speed_ok"
+        android:textAlignment="center"
+        android:textColor="#008800"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textKmh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewShowSpeed"
+        android:layout_centerHorizontal="true"
+        android:text="@string/speed_ph"
+        android:textColor="#A0C9A1"
+        android:textSize="100sp" />
+</RelativeLayout>

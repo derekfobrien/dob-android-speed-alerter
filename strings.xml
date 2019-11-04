@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MySpeedAlerter</string>
+    <string name="speed_limit">Speed limit (km/h)</string>
+    <string name="set_speed">Set Speed</string>
+    <string name="your_speed_is">Your speed is:</string>
+    <string name="speed_ok">Speed OK</string>
+    <string name="slow_down">Slow down</string>
+    <string name="speed_ph">XXX km/h</string>
+    <string name="sign030">30 km/h</string>
+    <string name="sign040">40 km/h</string>
+    <string name="sign050">50 km/h</string>
+    <string name="sign060">60 km/h</string>
+    <string name="sign070">70 km/h</string>
+    <string name="sign080">80 km/h</string>
+    <string name="sign090">90 km/h</string>
+    <string name="sign100">100 km/h</string>
+    <string name="sign110">110 km/h</string>
+    <string name="sign120">120 km/h</string>
+</resources>

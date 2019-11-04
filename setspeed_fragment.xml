@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#091518">
+
+    <TextView
+        android:id="@+id/textViewSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/speed_limit"
+        android:textColor="#97C0C5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textCurrentSpeedLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableSigns"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="TextView"
+        android:textColor="#DBBDF0"
+        android:textSize="40sp" />
+
+    <TableLayout
+        android:id="@+id/tableSigns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSpeed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView030"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign030"
+                android:src="@drawable/speed030"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView040"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign040"
+                android:src="@drawable/speed040"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView050"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign050"
+                android:src="@drawable/speed050"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView060"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign060"
+                android:src="@drawable/speed060"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView070"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign070"
+                android:src="@drawable/speed070"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView080"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign080"
+                android:visibility="visible"
+                android:src="@drawable/speed080" />
+
+            <ImageView
+                android:id="@+id/imageView090"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign090"
+                android:visibility="visible"
+                android:src="@drawable/speed090" />
+
+            <ImageView
+                android:id="@+id/imageView100"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign100"
+                android:visibility="visible"
+                android:src="@drawable/speed100" />
+
+            <ImageView
+                android:id="@+id/imageView110"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign110"
+                android:visibility="visible"
+                android:src="@drawable/speed110" />
+
+            <ImageView
+                android:id="@+id/imageView120"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/sign120"
+                android:visibility="visible"
+                android:src="@drawable/speed120" />
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
